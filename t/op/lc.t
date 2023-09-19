@@ -9,7 +9,7 @@ BEGIN {
     chdir 't' if -d 't';
     require './test.pl';
     set_up_inc('../lib');
-    require Config; import Config;
+    require Config; Config->import;
     skip_all_without_unicode_tables();
     require './charset_tools.pl';
     require './loc_tools.pl';   # Contains find_utf8_ctype_locale()
@@ -212,12 +212,12 @@ for ("a\x{100}", "xyz\x{100}") {
 for ("A\x{100}", "XYZ\x{100}") {
     is(substr(lc($_), 0), lc($_), "[perl #38619] lc");
 }
-for ("a\x{100}", "ßyz\x{100}") { # ß to Ss (different length)
+for ("a\x{100}", "ï¿½yz\x{100}") { # ï¿½ to Ss (different length)
     is(substr(ucfirst($_), 0), ucfirst($_), "[perl #38619] ucfirst");
 }
 
 #fc() didn't exist back then, but coverage is coverage.
-for ("a\x{100}", "ßyz\x{100}", "xyz\x{100}", "XYZ\x{100}") { # ß to Ss (different length)
+for ("a\x{100}", "ï¿½yz\x{100}", "xyz\x{100}", "XYZ\x{100}") { # ï¿½ to Ss (different length)
     is(substr(fc($_), 0), fc($_), "[perl #38619] fc");
 }
 
