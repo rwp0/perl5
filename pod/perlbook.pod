@@ -12,7 +12,7 @@ listing a book implies our
 endorsement, don't think that not including a book means anything.
 
 Most of these books are available online through Safari Books Online
-( L<http://safaribooksonline.com/> ).
+( L<https://safaribooksonline.com/> ).
 
 =head2 The most popular books
 
@@ -115,7 +115,7 @@ You might want to keep these desktop references close by your keyboard:
 
  by Curtis 'Ovid' Poe
  ISBN 978-1-118-01384-7
- http://www.wrox.com/WileyCDA/WroxTitle/productCd-1118013840.html
+ https://www.wiley.com/en-ie/Beginning+Perl-p-9781118235638
 
  by James Lee
  ISBN 1-59059-391-X [3rd edition April 2010 & ebook]
@@ -221,13 +221,13 @@ You might want to keep these desktop references close by your keyboard:
  by Jeffrey E. F. Friedl
  ISBN 978-0-596-52812-6 [3rd edition August 2006]
  ISBN 978-0-596-55899-4 [ebook]
- https://oreilly.com/catalog/9780596528126
+ https://learning.oreilly.com/library/view/-/0596528124/
 
 =item I<Network Programming with Perl>
 
  by Lincoln Stein
  ISBN 0-201-61571-1 [1st edition 2001]
- https://www.pearsonhighered.com/educator/product/Network-Programming-with-Perl/9780201615715.page
+ https://www.oreilly.com/library/view/-/0201615711/
 
 =item I<Perl Template Toolkit>
 
@@ -276,7 +276,7 @@ Some of these books are available as free downloads.
 
 I<Higher-Order Perl>: L<https://hop.perl.plover.com/>
 
-I<Modern Perl>: L<http://onyxneon.com/books/modern_perl/>
+I<Modern Perl>: L<https://onyxneon.com/books/modern_perl/>
 
 =head2 Other interesting, non-Perl books
 
